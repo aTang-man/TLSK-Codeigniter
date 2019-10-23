@@ -1,0 +1,1377 @@
+1.            Which of the following scenarios should be modeled so that historical data is kept? (Choose two)             Mark for Review
+(1) Points
+                                                (Choose all correct answers)      
+                BABY and AGE
+                CUSTOMER and ORDERS (*)
+                TEACHER and AGE
+                CUSTOMER and PAYMENTS (*)
+
+2.            When modeling historical data the unique identifier is always made up of a barred relationship from the original two entities. True or False?         Mark for Review
+(1) Points
+                True
+                False (*)
+
+3.            Which of the following scenarios should be modeled so that historical data is kept? (Choose two)             Mark for Review
+(1) Points
+                                                (Choose all correct answers)      
+                LIBRARY and BOOK (*)
+                STUDENT and GRADE (*)
+                STUDENT and AGE
+                LIBRARY and NUMBER OF BOOKS
+
+4.            Which of the following statements are true for ERD's to enhance their readability. (Choose Two)              Mark for Review
+(1) Points
+                                                (Choose all correct answers)      
+
+                You must ensure that you have every single entity--even if hundreds of them exist--on one single, big diagram.
+
+                The crows feet (many ends) can point whichever way is the easiest to draw.
+
+                Avoid crossing one relationship line with another. (*)
+
+                It is OK to break down a large ERD into subsets of the overall picture. By doing so, you end up with more than one ERD that, taken together, documents the entire system. (*)
+
+5.            No formal rules exist for drawing ERD's. The most important thing is to make sure that all entities, attributes, and relationships are documented on the diagram, and the diagram is clear and readable. True or False?              Mark for Review
+(1) Points
+                True (*)
+                False
+
+6.            You must make sure all entities of a proposed system can fit onto one diagram. It is not allowed to break up a data model into more than one diagram. True or False?             Mark for Review
+(1) Points
+                True
+                False (*)
+
+7. Formal rules exist for drawing ERD's. You must always follow them, even if it results in an ERD that is difficult to read. True or False?        Mark for Review
+(1) Points
+                True
+                False (*)
+
+8.            All systems must include functionality to provide logging or journaling in conceptual data models. True or False?   Mark for Review
+(1) Points
+                True
+                False (*)
+
+9.            Which of the following is a logical constraint that could result from considering how time impacts an example of data storage?               Mark for Review
+(1) Points
+                End Date must be before the Start Date.
+                EMPLOYEE periods can overlap causing the database to crash.
+                Dates must be stored with Time.
+
+                An ASSIGNMENT may only refer to an EMPLOYEE with a valid employee record at the Start Date of the ASSIGNMENT. (*)
+
+10.          What is the function of logging or journaling in conceptual data models?               Mark for Review
+(1) Points
+                Represents entities as time in the data model.
+                Creates a fixed time for all events in a data model.
+                Gives a timestamp to all entities.
+                Allows you to track the history of attribute values, relationships, and/or entire entities (*)
+
+11.          How do you know when to use the different types of time in your design?          Mark for Review
+(1) Points
+                It depends on the functional needs of the system . (*)
+                Always model time; you can take it out later if it is not needed.
+                You would first determine the existence of the concept of time and map it against the Greenwich Mean Time.
+                The rules are fixed and should be followed.
+
+12.          Which of the following would be a logical constraint when modeling time for a country entity?   Mark for Review
+(1) Points
+                If you are doing a system for France or Germany, you would need security clearance.
+                Daily traffic patterns must be monitored to determine which countries are overcrowded.
+                Countries may change their names and/or borders over a period of time. (*)
+                People have births and deaths in their countries that must be tracked by the system.
+
+13.          In a payroll system, it is desirable to have an entity called DAY with a holiday attribute when you want to track special holiday dates. True or False?             Mark for Review
+(1) Points
+                True (*)
+                False
+
+14.          Modeling historical data is optional. True or False?           Mark for Review
+(1) Points
+                True (*)
+                False
+
+15.          When a relationship may or may not be transferable, depending on time, this is know as a/an:  Mark for Review
+(1) Points
+                Transferable Relationship
+                Non-transferable Relationship.
+                Conditional Non-transferable Relationship. (*)
+                Arc.
+
+1.            You must make sure all entities of a proposed system can fit onto one diagram. It is not allowed to break up a data model into more than one diagram. True or False?             Mark for Review
+(1) Points
+                True
+                False (*)
+
+2.            Which of the following statements are true for ERD's to enhance their readability. (Choose Two)              Mark for Review
+(1) Points
+                                                (Choose all correct answers)      
+                You must ensure that you have every single entity--even if hundreds of them exist--on one single, big diagram.
+
+                It is OK to break down a large ERD into subsets of the overall picture. By doing so, you end up with more than one ERD that, taken together, documents the entire system. (*)
+
+                The crows feet (many ends) can point whichever way is the easiest to draw.
+
+                Avoid crossing one relationship line with another. (*)
+
+3.            In an ERD, it is a good idea to group your entities according to the expected volumes. By grouping high volume entities together, the diagrams could become easier to read. True or False?       Mark for Review
+(1) Points
+                True (*)
+                False
+
+4.            There is no point in trying to group your entities together on your diagram according to volume, and making a diagram look nice is a waste of time. True or False?      Mark for Review
+(1) Points
+                True
+                False (*)
+
+5.            Which of the following scenarios should be modeled so that historical data is kept? (Choose two)             Mark for Review
+(1) Points
+                                                (Choose all correct answers)      
+                CUSTOMER and ORDERS (*)
+                CUSTOMER and PAYMENTS (*)
+                TEACHER and AGE
+                BABY and AGE
+
+6.            Which of the following scenarios should be modeled so that historical data is kept? (Choose two)             Mark for Review
+(1) Points
+                                                (Choose all correct answers)      
+                LIBRARY and NUMBER OF BOOKS
+                STUDENT and GRADE (*)
+                LIBRARY and BOOK (*)
+                STUDENT and AGE
+
+7.            Modeling historical data can produce a unique identifier that includes a date. True or False?        Mark for Review
+(1) Points
+                True (*)
+                False
+
+8.            In a payroll system, it is desirable to have an entity called DAY with a holiday attribute when you want to track special holiday dates. True or False?             Mark for Review
+(1) Points
+                True (*)
+                False
+
+9.            Which of the following would be a logical constraint when modeling time for a City entity?           Mark for Review
+(1) Points
+                If you are doing a system for any French City, you would need security clearance.
+                People are born in the city and people die in the city.
+
+                Daily traffic patterns must be monitored to determine how many law enforcement officers are needed.
+
+                Cites may change their names and/or country association if the borders of a country change. (*)
+
+10.          When you add the concept of time to your data model, your model becomes more complex. True or False?                Mark for Review
+(1) Points
+                True (*)
+                False
+
+11.          If you have an entity with a DATE attribute, in addition to other attributes that track date characteristics, you should create a DAY entity. True or False?            Mark for Review
+(1) Points
+                True (*)
+                False
+
+12.          There are no circumstances where you would create a DAY entity. True or False?             Mark for Review
+(1) Points
+                True
+                False (*)
+
+13.          You are doing a data model for a computer sales company where the price of postage depends upon the day of the week that goods are shipped. So shipping is more expensive if the customer wants a delivery to take place on a Saturday or Sunday. What would be the best way to model this?           Mark for Review
+(1) Points
+
+                Email current prices to all employees whenever a price changes.
+
+                Update the prices in the system, print out the current prices when they change, and pin them on the company noticeboard.
+
+                Allow them to enter whatever delivery charge they want.
+
+                Use a Delivery Day entity, which holds prices against week days, and ensure the we also have an attribute for the Requested Delivery Day in the Order Entity. (*)
+
+14.          Why would you want to model a time component when designing a system that lets people buy bars of gold?     Mark for Review
+(1) Points
+                The Government of your country might want to be notified of this transaction.
+                You would not want to model this; it is not important.
+
+                The price of gold fluctuates and, to determine the current price, you need to know the time of purchase. (*)
+
+                Sales people must determine where the gold is coming from.
+
+15.          All systems must include functionality to provide logging or journaling in conceptual data models. True or False?   Mark for Review
+(1) Points
+                True
+                False (*)
+
+1.            Which of the following scenarios should be modeled so that historical data is kept? (Choose two)             Mark for Review
+(1) Points
+                                                (Choose all correct answers)      
+                LIBRARY and BOOK (*)
+                STUDENT and AGE
+                LIBRARY and NUMBER OF BOOKS
+                STUDENT and GRADE (*)
+
+2.            When modeling historical data the unique identifier is always made up of a barred relationship from the original two entities. True or False?         Mark for Review
+(1) Points
+                True
+                False (*)
+
+3.            Which of the following scenarios should be modeled so that historical data is kept? (Choose two)             Mark for Review
+(1) Points
+                                                (Choose all correct answers)      
+                CUSTOMER and PAYMENTS (*)
+                CUSTOMER and ORDERS (*)
+                BABY and AGE
+                TEACHER and AGE
+
+4.            When a relationship may or may not be transferable, depending on time, this is know as a/an:  Mark for Review
+(1) Points
+                Transferable Relationship
+                Non-transferable Relationship.
+                Conditional Non-transferable Relationship. (*)
+                Arc.
+
+5.            All systems must have an entity called WEEK with a holiday attribute, so you know when to give your employees a holiday. True or False?        Mark for Review
+(1) Points
+                True
+                False (*)
+
+6.            In a payroll system, it is desirable to have an entity called DAY with a holiday attribute when you want to track special holiday dates. True or False?             Mark for Review
+(1) Points
+                True (*)
+                False
+
+7.            When you add the concept of time to your data model, your model becomes more complex. True or False?                Mark for Review
+(1) Points
+                True (*)
+                False
+
+8.            If you have an entity that a DATE attribute, and other attributes that track characteristics of the date, you should create a DAY entity. True or False?            Mark for Review
+(1) Points
+                True (*)
+                False
+
+9.            In an ERD, it is a good idea to group your entities according to the expected volumes. By grouping high volume entities together, the diagrams could become easier to read. True or False?       Mark for Review
+(1) Points
+                True (*)
+                False
+
+10.          There is no point in trying to group your entities together on your diagram according to volume, and making a diagram look nice is a waste of time. True or False?      Mark for Review
+(1) Points
+                True
+                False (*)
+
+11.          No formal rules exist for drawing ERD's. The most important thing is to make sure that all entities, attributes, and relationships are documented on the diagram, and the diagram is clear and readable. True or False?              Mark for Review
+(1) Points
+                True (*)
+                False
+
+12.          In an ERD, High Volume Entities usually have very few relationships to other entities. True or False?        Mark for Review
+(1) Points
+                True
+                False (*)
+
+13.          You are doing a data model for a computer sales company where the price of postage depends upon the day of the week that goods are shipped. So shipping is more expensive if the customer wants a delivery to take place on a Saturday or Sunday. What would be the best way to model this?           Mark for Review
+(1) Points
+                Email current prices to all employees whenever a price changes.
+
+                Update the prices in the system, print out the current prices when they change, and pin them on the company noticeboard.
+
+                Use a Delivery Day entity, which holds prices against week days, and ensure the we also have an attribute for the Requested Delivery Day in the Order Entity. (*)
+
+                Allow them to enter whatever delivery charge they want.
+
+14.          Which of the following is a logical constraint that could result from considering how time impacts an example of data storage?               Mark for Review
+(1) Points
+                EMPLOYEE periods can overlap causing the database to crash.
+                Dates must be stored with Time.
+                End Date must be before the Start Date.
+
+                An ASSIGNMENT may only refer to an EMPLOYEE with a valid employee record at the Start Date of the ASSIGNMENT. (*)
+
+15.          Why would you want to model a time component when designing a system that lets people buy bars of gold?     Mark for Review
+(1) Points
+                You would not want to model this; it is not important.
+                The Government of your country might want to be notified of this transaction.
+
+                The price of gold fluctuates and, to determine the current price, you need to know the time of purchase. (*)
+
+                Sales people must determine where the gold is coming from.
+
+1.            You are doing a data model for a computer sales company where the price fluctuates on a regular basis. If you want to allow the company to modify the price and keep track of the changes, what is the best way to model this?      Mark for Review
+(1) Points
+
+                A. Create a product entity and a related price entity with start and end dates, and then let the users enter the new price whenever required.
+                B. Create a new item and a new price every day.
+                C. Use a price entity with a start and end date
+                D. Allow them to delete the item and enter a new one.
+                E. Both A and C (*)
+
+2.            Which of the following is a logical constraint that could result from considering how time impacts an example of data storage?               Mark for Review
+(1) Points
+
+                An ASSIGNMENT may only refer to an EMPLOYEE with a valid employee record at the Start Date of the ASSIGNMENT. (*)
+
+                Dates must be stored with Time.
+                End Date must be before the Start Date.
+                EMPLOYEE periods can overlap causing the database to crash.
+
+3.            You are doing a data model for a computer sales company where the price of postage depends upon the day of the week that goods are shipped. So shipping is more expensive if the customer wants a delivery to take place on a Saturday or Sunday. What would be the best way to model this?           Mark for Review
+(1) Points
+
+                Update the prices in the system, print out the current prices when they change, and pin them on the company noticeboard.
+
+                Use a Delivery Day entity, which holds prices against week days, and ensure the we also have an attribute for the Requested Delivery Day in the Order Entity. (*)
+
+                Email current prices to all employees whenever a price changes.
+                Allow them to enter whatever delivery charge they want.
+
+4. Historical data must never be kept. True or False?       Mark for Review
+(1) Points
+                True
+                False (*)
+
+5.            Modeling historical data can produce a unique identifier that includes a date. True or False?        Mark for Review
+(1) Points
+                True (*)
+                False
+
+6.            Which of the following scenarios should be modeled so that historical data is kept? (Choose two)             Mark for Review
+(1) Points
+                                                (Choose all correct answers)      
+                BABY and AGE
+                TEACHER and AGE
+                CUSTOMER and ORDERS (*)
+                CUSTOMER and PAYMENTS (*)
+
+7.            In an ERD, High Volume Entities usually have very few relationships to other entities. True or False?        Mark for Review
+(1) Points
+                True
+                False (*)
+
+8.            No formal rules exist for drawing ERD's. The most important thing is to make sure that all entities, attributes, and relationships are documented on the diagram, and the diagram is clear and readable. True or False?              Mark for Review
+(1) Points
+                True (*)
+                False
+
+9.            Formal rules exist for drawing ERD's. You must always follow them, even if it results in an ERD that is difficult to read. True or False?   Mark for Review
+(1) Points
+                True
+                False (*)
+
+10.          Which of the following statements are true to enhance the readability of ERDs? (Choose Two)  Mark for Review
+(1) Points
+                                                (Choose all correct answers)      
+                Crossing relationship lines help the readability of the diagram.
+
+                Crows feet (the many-ends of relationships) should consistently point the same direction where possible, either South & East or North & West (*)
+
+                Relationship lines should not cross. (*)
+
+                It does not matter which way the crows feet (many ends of a relationship) point.
+
+11.          Modeling historical data is optional. True or False?           Mark for Review
+(1) Points
+                True (*)
+                False
+
+12.          When a relationship may or may not be transferable, depending on time, this is know as a/an:  Mark for Review
+(1) Points
+                Conditional Non-transferable Relationship. (*)
+                Arc.
+                Transferable Relationship
+                Non-transferable Relationship.
+
+13.          When you add the concept of time to your data model, your model becomes more complex. True or False?                Mark for Review
+(1) Points
+                True (*)
+                False
+
+14.          All systems must have an entity called WEEK with a holiday attribute so that you know when to give employees a holiday. True or False?        Mark for Review
+(1) Points
+                True
+                False (*)
+
+15.          How do you know when to use the different types of time in your design?          Mark for Review
+(1) Points
+
+                You would first determine the existence of the concept of time and map it against the Greenwich Mean Time.
+
+                The rules are fixed and should be followed.
+                Always model time; you can take it out later if it is not needed.
+                It depends on the functional needs of the system . (*)
+
+1.            Which of the following scenarios should be modeled so that historical data is kept? (Choose two)             Mark for Review
+(1) Points
+                                                (Choose all correct answers)      
+                STUDENT and GRADE (*)
+                STUDENT and AGE
+                LIBRARY and BOOK (*)
+                LIBRARY and NUMBER OF BOOKS
+
+2.            When modeling historical data the unique identifier is always made up of a barred relationship from the original two entities. True or False?         Mark for Review
+(1) Points
+                True
+                False (*)
+
+1.   No formal rules exist for drawing ERD's. The most important thing is to make sure that all entities, attributes, and relationships are documented on the diagram, and the diagram is clear and readable. True or False?
+Mark for Review (1) Point
+True(*)
+False
+2.   You must make sure all entities of a proposed system can fit onto one diagram. It is not allowed to break up a data model into more than one diagram. True or False?
+Mark for Review (1) Point
+True
+False(*)
+3.   In an ERD, High Volume Entities usually have very few relationships to other entities. True or False?
+
+Mark for Review (1) Point
+True
+False(*)
+4.   Which of the following statements are true for ERD's to enhance their readability. (Choose Two)
+
+(Choose all correct answers)
+Mark for Review (1) Point
+It is OK to break down a large ERD into subsets of the overall picture. By doing so, you end up with more than one ERD that, taken together, documents the entire system. (*)
+Avoid crossing one relationship line with another. (*)
+5.   Modeling historical data is optional. True or False?
+Mark for Review (1) Point
+True(*)
+False
+6.   When you add the concept of time to your data model, your model becomes more complex. True or False?
+Mark for Review (1) Point
+True(*)
+False
+7.   In a payroll system, it is desirable to have an entity called DAY with a holiday attribute when you want to track special holiday dates. True or False?
+Mark for Review (1) Point
+True(*)
+False
+8.   If you have an entity with a DATE attribute, in addition to other attributes that track date characteristics, you should create a DAY entity. True or False?
+Mark for Review (1) Point
+True(*)
+False
+9.   All systems must have an entity called WEEK with a holiday attribute so that you know when to give employees a holiday. True or False?
+Mark for Review (1) Point
+True
+False(*)
+10.   Modeling historical data can produce a unique identifier that includes a date. True or False?
+Mark for Review (1) Point
+True(*)
+False
+11.   Historical data should always be kept. True or False?
+Mark for Review (1) Point
+True
+False(*)
+12.   Which of the following scenarios should be modeled so that historical data is kept? (Choose two)
+
+(Choose all correct answers)
+Mark for Review (1) Point
+
+CUSTOMER and PAYMENTS (*)
+
+CUSTOMER and ORDERS (*)
+13.   Why would you want to model a time component when designing a system that lets people buy bars of gold?
+Mark for Review (1) Point
+The price of gold fluctuates and, to determine the current price, you need to know the time of purchase. (*)
+14.   When a system requires that old values for attributes are kept on record, this is know as Journaling or Logging. True or False?
+Mark for Review (1) Point
+True(*)
+False
+15.   All systems must include functionality to provide logging or journaling in conceptual data models. True or False?
+Mark for Review (1) Point
+True
+False(*)
+
+ 1.  In a payroll system, it is desirable to have an entity called DAY with a holiday attribute when you want to track special holiday dates. True or False?  Mark for Review
+(1) Points
+     
+   
+ True (*)
+
+   
+ False
+
+     
+    
+Correct  Correct
+
+     
+  2.  If you have an entity that a DATE attribute, and other attributes that track characteristics of the date, you should create a DAY entity. True or False?  Mark for Review
+(1) Points
+     
+   
+ True (*)
+
+   
+ False
+
+     
+    
+Correct  Correct
+
+     
+  3.  Modeling historical data is optional. True or False?  Mark for Review
+(1) Points
+     
+   
+ True (*)
+
+   
+ False
+
+     
+    
+Incorrect  Incorrect. Refer to Section 8 Lesson 2.
+
+     
+  4.  All systems must have an entity called WEEK with a holiday attribute, so you know when to give your employees a holiday. True or False?  Mark for Review
+(1) Points
+     
+   
+ True
+
+   
+ False (*)
+
+     
+    
+Incorrect  Incorrect. Refer to Section 8 Lesson 2.
+
+     
+  5.  How do you know when to use the different types of time in your design?  Mark for Review
+(1) Points
+     
+   
+ It depends on the functional needs of the system . (*)
+
+   
+ Always model time; you can take it out later if it is not needed.
+
+   
+ You would first determine the existence of the concept of time and map it against the Greenwich Mean Time.
+
+   
+ The rules are fixed and should be followed.
+
+     
+    
+Correct  Correct
+
+     
+Page 1 of 3 Next Summary
+
+
+Test: Section 8 Quiz
+Review your answers, feedback, and question scores below. An asterisk (*) indicates a correct answer.
+
+ Section 8 Quiz
+ (Answer all questions in this section)
+     
+  6.  Formal rules exist for drawing ERD's. You must always follow them, even if it results in an ERD that is difficult to read. True or False?  Mark for Review
+(1) Points
+     
+   
+ True
+
+   
+ False (*)
+
+     
+    
+Incorrect  Incorrect. Refer to Section 8 Lesson 4.
+
+     
+  7.  In an ERD, it is a good idea to group your entities according to the expected volumes. By grouping high volume entities together, the diagrams could become easier to read. True or False?  Mark for Review
+(1) Points
+     
+   
+ True (*)
+
+   
+ False
+
+     
+    
+Correct  Correct
+
+     
+  8.  In an ERD, High Volume Entities usually have very few relationships to other entities. True or False?  Mark for Review
+(1) Points
+     
+   
+ True
+
+   
+ False (*)
+
+     
+    
+Incorrect  Incorrect. Refer to Section 8 Lesson 4.
+
+     
+  9.  You must make sure all entities of a proposed system can fit onto one diagram. It is not allowed to break up a data model into more than one diagram. True or False?  Mark for Review
+(1) Points
+     
+   
+ True
+
+   
+ False (*)
+
+     
+    
+Incorrect  Incorrect. Refer to Section 8 Lesson 4.
+
+     
+  10.  Which of the following scenarios should be modeled so that historical data is kept? (Choose two)  Mark for Review
+(1) Points
+     
+   (Choose all correct answers) 
+     
+   
+ TEACHER and AGE
+
+   
+ CUSTOMER and ORDERS (*)
+
+   
+ CUSTOMER and PAYMENTS (*)
+
+   
+ BABY and AGE
+
+     
+    
+Incorrect  Incorrect. Refer to Section 8 Lesson 1.
+
+     
+Previous Page 2 of 3 Next Summary
+
+
+Test: Section 8 Quiz
+Review your answers, feedback, and question scores below. An asterisk (*) indicates a correct answer.
+
+ Section 8 Quiz
+ (Answer all questions in this section)
+     
+  11.  When modeling historical data the unique identifier is always made up of a barred relationship from the original two entities. True or False?  Mark for Review
+(1) Points
+     
+   
+ True
+
+   
+ False (*)
+
+     
+    
+Incorrect  Incorrect. Refer to Section 8 Lesson 1.
+
+     
+  12.  Historical data must never be kept. True or False?  Mark for Review
+(1) Points
+     
+   
+ True
+
+   
+ False (*)
+
+     
+    
+Incorrect  Incorrect. Refer to Section 8 Lesson 1.
+
+     
+  13.  You are doing a data model for a computer sales company where the price of postage depends upon the day of the week that goods are shipped. So shipping is more expensive if the customer wants a delivery to take place on a Saturday or Sunday. What would be the best way to model this?  Mark for Review
+(1) Points
+     
+   
+ Email current prices to all employees whenever a price changes.
+
+   
+ Use a Delivery Day entity, which holds prices against week days, and ensure the we also have an attribute for the Requested Delivery Day in the Order Entity. (*)
+
+   
+ Allow them to enter whatever delivery charge they want.
+
+   
+ Update the prices in the system, print out the current prices when they change, and pin them on the company noticeboard.
+
+     
+    
+Incorrect  Incorrect. Refer to Section 8 Lesson 3.
+
+     
+  14.  What is the function of logging or journaling in conceptual data models?  Mark for Review
+(1) Points
+     
+   
+ Creates a fixed time for all events in a data model.
+
+   
+ Gives a timestamp to all entities.
+
+   
+ Allows you to track the history of attribute values, relationships, and/or entire entities (*)
+
+   
+ Represents entities as time in the data model.
+
+     
+    
+Incorrect  Incorrect. Refer to Section 8 Lesson 3.
+
+     
+  15.  When a system requires that old values for attributes are kept on record, this is know as Journaling or Logging. True or False?  Mark for Review
+(1) Points
+     
+   
+ True (*)
+
+   
+ False
+
+     
+    
+Correct  Correct
+
+     
+Previous Page 3 of 3 Summary
+
+
+Test: Section 8 Quiz
+Review your answers, feedback, and question scores below. An asterisk (*) indicates a correct answer.
+
+ Section 8 Quiz
+ (Answer all questions in this section)
+     
+  1.  What is the function of logging or journaling in conceptual data models?  Mark for Review
+(1) Points
+     
+   
+ Gives a timestamp to all entities.
+
+   
+ Creates a fixed time for all events in a data model.
+
+   
+ Represents entities as time in the data model.
+
+   
+ Allows you to track the history of attribute values, relationships, and/or entire entities (*)
+
+     
+    
+Correct  Correct
+
+     
+  2.  Which of the following is a logical constraint that could result from considering how time impacts an example of data storage?  Mark for Review
+(1) Points
+     
+   
+ An ASSIGNMENT may only refer to an EMPLOYEE with a valid employee record at the Start Date of the ASSIGNMENT. (*)
+
+   
+ EMPLOYEE periods can overlap causing the database to crash.
+
+   
+ End Date must be before the Start Date.
+
+   
+ Dates must be stored with Time.
+
+     
+    
+Correct  Correct
+
+     
+  3.  When a system requires that old values for attributes are kept on record, this is know as Journaling or Logging. True or False?  Mark for Review
+(1) Points
+     
+   
+ True (*)
+
+   
+ False
+
+     
+    
+Correct  Correct
+
+     
+  4.  When a relationship may or may not be transferable, depending on time, this is know as a/an:  Mark for Review
+(1) Points
+     
+   
+ Arc.
+
+   
+ Transferable Relationship
+
+   
+ Conditional Non-transferable Relationship. (*)
+
+   
+ Non-transferable Relationship.
+
+     
+    
+Incorrect  Incorrect. Refer to Section 8 Lesson 2.
+
+     
+  5.  How do you know when to use the different types of time in your design?  Mark for Review
+(1) Points
+     
+   
+ Always model time; you can take it out later if it is not needed.
+
+   
+ It depends on the functional needs of the system . (*)
+
+   
+ You would first determine the existence of the concept of time and map it against the Greenwich Mean Time.
+
+   
+ The rules are fixed and should be followed.
+
+     
+    
+Correct  Correct
+
+     
+Page 1 of 3 Next Summary
+
+
+Test: Section 8 Quiz
+Review your answers, feedback, and question scores below. An asterisk (*) indicates a correct answer.
+
+ Section 8 Quiz
+ (Answer all questions in this section)
+     
+  6.  Conditional non-transferability refers to a relationship that may or may not be transferable, depending on time. True or False?  Mark for Review
+(1) Points
+     
+   
+ True (*)
+
+   
+ False
+
+     
+    
+Correct  Correct
+
+     
+  7.  In a payroll system, it is desirable to have an entity called DAY with a holiday attribute when you want to track special holiday dates. True or False?  Mark for Review
+(1) Points
+     
+   
+ True (*)
+
+   
+ False
+
+     
+    
+Correct  Correct
+
+     
+  8.  Which of the following would be a logical constraint when modeling time for a City entity?  Mark for Review
+(1) Points
+     
+   
+ Daily traffic patterns must be monitored to determine how many law enforcement officers are needed.
+
+   
+ If you are doing a system for any French City, you would need security clearance.
+
+   
+ Cites may change their names and/or country association if the borders of a country change. (*)
+
+   
+ People are born in the city and people die in the city.
+
+     
+    
+Correct  Correct
+
+     
+  9.  You must make sure all entities of a proposed system can fit onto one diagram. It is not allowed to break up a data model into more than one diagram. True or False?  Mark for Review
+(1) Points
+     
+   
+ True
+
+   
+ False (*)
+
+     
+    
+Correct  Correct
+
+     
+  10.  There is no point in trying to group your entities together on your diagram according to volume, and making a diagram look nice is a waste of time. True or False?  Mark for Review
+(1) Points
+     
+   
+ True
+
+   
+ False (*)
+
+     
+    
+Incorrect  Incorrect. Refer to Section 8 Lesson 4.
+
+     
+Previous Page 2 of 3 Next Summary
+
+
+Test: Section 8 Quiz
+Review your answers, feedback, and question scores below. An asterisk (*) indicates a correct answer.
+
+ Section 8 Quiz
+ (Answer all questions in this section)
+     
+  11.  In an ERD, it is a good idea to group your entities according to the expected volumes. By grouping high volume entities together, the diagrams could become easier to read. True or False?  Mark for Review
+(1) Points
+     
+   
+ True (*)
+
+   
+ False
+
+     
+    
+Correct  Correct
+
+     
+  12.  Which of the following statements are true to enhance the readability of ERDs? (Choose Two)  Mark for Review
+(1) Points
+     
+   (Choose all correct answers) 
+     
+   
+ Relationship lines should not cross. (*)
+
+   
+ Crossing relationship lines help the readability of the diagram.
+
+   
+ It does not matter which way the crows feet (many ends of a relationship) point.
+
+   
+ Crows feet (the many-ends of relationships) should consistently point the same direction where possible, either South & East or North & West (*)
+
+     
+    
+Incorrect  Incorrect. Refer to Section 8 Lesson 4.
+
+     
+  13.  Historical data must never be kept. True or False?  Mark for Review
+(1) Points
+     
+   
+ True
+
+   
+ False (*)
+
+     
+    
+Correct  Correct
+
+     
+  14.  When modeling historical data the unique identifier is always made up of a barred relationship from the original two entities. True or False?  Mark for Review
+(1) Points
+     
+   
+ True
+
+   
+ False (*)
+
+     
+    
+Correct  Correct
+
+     
+  15.  Which of the following scenarios should be modeled so that historical data is kept? (Choose two)  Mark for Review
+(1) Points
+     
+   (Choose all correct answers) 
+     
+   
+ TEACHER and AGE
+
+   
+ BABY and AGE
+
+   
+ CUSTOMER and PAYMENTS (*)
+
+   
+ CUSTOMER and ORDERS (*)
+
+     
+    
+Correct  Correct
+
+     
+Previous Page 3 of 3 Summary
+
+
+Test: Section 8 Quiz
+Review your answers, feedback, and question scores below. An asterisk (*) indicates a correct answer.
+
+ Section 8 Quiz
+ (Answer all questions in this section)
+     
+  1.  Modeling historical data can produce a unique identifier that includes a date. True or False?  Mark for Review
+(1) Points
+     
+   
+ True (*)
+
+   
+ False
+
+     
+    
+Correct  Correct
+
+     
+  2.  Which of the following scenarios should be modeled so that historical data is kept? (Choose two)  Mark for Review
+(1) Points
+     
+   (Choose all correct answers) 
+     
+   
+ LIBRARY and BOOK (*)
+
+   
+ LIBRARY and NUMBER OF BOOKS
+
+   
+ STUDENT and AGE
+
+   
+ STUDENT and GRADE (*)
+
+     
+    
+Incorrect  Incorrect. Refer to Section 8 Lesson 1.
+
+     
+  3.  Historical data must never be kept. True or False?  Mark for Review
+(1) Points
+     
+   
+ True
+
+   
+ False (*)
+
+     
+    
+Correct  Correct
+
+     
+  4.  Which of the following statements are true to enhance the readability of ERDs? (Choose Two)  Mark for Review
+(1) Points
+     
+   (Choose all correct answers) 
+     
+   
+ Crows feet (the many-ends of relationships) should consistently point the same direction where possible, either South & East or North & West (*)
+
+   
+ Crossing relationship lines help the readability of the diagram.
+
+   
+ It does not matter which way the crows feet (many ends of a relationship) point.
+
+   
+ Relationship lines should not cross. (*)
+
+     
+    
+Correct  Correct
+
+     
+  5.  In an ERD, High Volume Entities usually have very few relationships to other entities. True or False?  Mark for Review
+(1) Points
+     
+   
+ True
+
+   
+ False (*)
+
+     
+    
+Correct  Correct
+
+     
+Page 1 of 3 Next Summary
+
+
+Test: Section 8 Quiz
+Review your answers, feedback, and question scores below. An asterisk (*) indicates a correct answer.
+
+ Section 8 Quiz
+ (Answer all questions in this section)
+     
+  6.  In an ERD, it is a good idea to group your entities according to the expected volumes. By grouping high volume entities together, the diagrams could become easier to read. True or False?  Mark for Review
+(1) Points
+     
+   
+ True (*)
+
+   
+ False
+
+     
+    
+Correct  Correct
+
+     
+  7.  No formal rules exist for drawing ERD's. The most important thing is to make sure that all entities, attributes, and relationships are documented on the diagram, and the diagram is clear and readable. True or False?  Mark for Review
+(1) Points
+     
+   
+ True (*)
+
+   
+ False
+
+     
+    
+Correct  Correct
+
+     
+  8.  When a system requires that old values for attributes are kept on record, this is know as Journaling or Logging. True or False?  Mark for Review
+(1) Points
+     
+   
+ True (*)
+
+   
+ False
+
+     
+    
+Correct  Correct
+
+     
+  9.  Why would you want to model a time component when designing a system that lets people buy bars of gold?  Mark for Review
+(1) Points
+     
+   
+ Sales people must determine where the gold is coming from.
+
+   
+ You would not want to model this; it is not important.
+
+   
+ The price of gold fluctuates and, to determine the current price, you need to know the time of purchase. (*)
+
+   
+ The Government of your country might want to be notified of this transaction.
+
+     
+    
+Incorrect  Incorrect. Refer to Section 8 Lesson 3.
+
+     
+  10.  What is the function of logging or journaling in conceptual data models?  Mark for Review
+(1) Points
+     
+   
+ Creates a fixed time for all events in a data model.
+
+   
+ Allows you to track the history of attribute values, relationships, and/or entire entities (*)
+
+   
+ Gives a timestamp to all entities.
+
+   
+ Represents entities as time in the data model.
+
+     
+    
+Correct  Correct
+
+     
+Previous Page 2 of 3 Next Summary
+
+
+Test: Section 8 Quiz
+Review your answers, feedback, and question scores below. An asterisk (*) indicates a correct answer.
+
+ Section 8 Quiz
+ (Answer all questions in this section)
+     
+  11.  All systems must have an entity called WEEK with a holiday attribute, so you know when to give your employees a holiday. True or False?  Mark for Review
+(1) Points
+     
+   
+ True
+
+   
+ False (*)
+
+     
+    
+Correct  Correct
+
+     
+  12.  When you add the concept of time to your data model, your model becomes more complex. True or False?  Mark for Review
+(1) Points
+     
+   
+ True (*)
+
+   
+ False
+
+     
+    
+Correct  Correct
+
+     
+  13.  How do you know when to use the different types of time in your design?  Mark for Review
+(1) Points
+     
+   
+ The rules are fixed and should be followed.
+
+   
+ It depends on the functional needs of the system . (*)
+
+   
+ You would first determine the existence of the concept of time and map it against the Greenwich Mean Time.
+
+   
+ Always model time; you can take it out later if it is not needed.
+
+     
+    
+Correct  Correct
+
+     
+  14.  Which of the following would be a logical constraint when modeling time for a country entity?  Mark for Review
+(1) Points
+     
+   
+ People have births and deaths in their countries that must be tracked by the system.
+
+   
+ Daily traffic patterns must be monitored to determine which countries are overcrowded.
+
+   
+ If you are doing a system for France or Germany, you would need security clearance.
+
+   
+ Countries may change their names and/or borders over a period of time. (*)
+
+     
+    
+Correct  Correct
+
+     
+  15.  When a relationship may or may not be transferable, depending on time, this is know as a/an:  Mark for Review
+(1) Points
+     
+   
+ Conditional Non-transferable Relationship. (*)
+
+   
+ Arc.
+
+   
+ Transferable Relationship
+
+   
+ Non-transferable Relationship.
+
+3.            Modeling historical data can produce a unique identifier that includes a date. True or False?        Mark for Review
+(1) Points
+                True (*)
+                False
+
+4.            All systems must include functionality to provide logging or journaling in conceptual data models. True or False?   Mark for Review
+(1) Points
+                True
+                False (*)
+
+5.            You are doing a data model for a computer sales company where the price fluctuates on a regular basis. If you want to allow the company to modify the price and keep track of the changes, what is the best way to model this?      Mark for Review
+(1) Points
+
+                A. Create a product entity and a related price entity with start and end dates, and then let the users enter the new price whenever required.
+                B. Create a new item and a new price every day.
+                C. Use a price entity with a start and end date
+                D. Allow them to delete the item and enter a new one.
+                E. Both A and C (*)
+
+6.            Which of the following is a logical constraint that could result from considering how time impacts an example of data storage?               Mark for Review
+(1) Points
+                End Date must be before the Start Date.
+                EMPLOYEE periods can overlap causing the database to crash.
+                An ASSIGNMENT may only refer to an EMPLOYEE with a valid employee record at the Start Date of the ASSIGNMENT. (*)
+                Dates must be stored with Time.
+
+7.            Formal rules exist for drawing ERD's. You must always follow them, even if it results in an ERD that is difficult to read. True or False?   Mark for Review
+(1) Points
+                True
+                False (*)
+
+8.            In an ERD, High Volume Entities usually have very few relationships to other entities. True or False?        Mark for Review
+(1) Points
+                True
+                False (*)
+
+9.            In an ERD, it is a good idea to group your entities according to the expected volumes. By grouping high volume entities together, the diagrams could become easier to read. True or False?       Mark for Review
+(1) Points
+                True (*)
+                False
+
+10.          No formal rules exist for drawing ERD's. The most important thing is to make sure that all entities, attributes, and relationships are documented on the diagram, and the diagram is clear and readable. True or False?              Mark for Review
+(1) Points
+                True (*)
+                False
+
+11.          How do you know when to use the different types of time in your design?          Mark for Review
+(1) Points
+
+                You would first determine the existence of the concept of time and map it against the Greenwich Mean Time.
+                Always model time; you can take it out later if it is not needed.
+                The rules are fixed and should be followed.
+                It depends on the functional needs of the system . (*)
+
+12.          All systems must have an entity called WEEK with a holiday attribute so that you know when to give employees a holiday. True or False?        Mark for Review
+(1) Points
+                True
+                False (*)
+
+13.          When a relationship may or may not be transferable, depending on time, this is know as a/an:  Mark for Review
+(1) Points
+                Conditional Non-transferable Relationship. (*)
+                Transferable Relationship
+                Non-transferable Relationship.
+                Arc.
+
+14.          Which of the following would be a logical constraint when modeling time for a country entity?   Mark for Review
+(1) Points
+                Daily traffic patterns must be monitored to determine which countries are overcrowded.
+                Countries may change their names and/or borders over a period of time. (*)
+                People have births and deaths in their countries that must be tracked by the system.
+                If you are doing a system for France or Germany, you would need security clearance.
+
+15.          Which of the following would be a logical constraint when modeling time for a City entity?           Mark for Review
+(1) Points
+
+                Cites may change their names and/or country association if the borders of a country change. (*)
+
+                Daily traffic patterns must be monitored to determine how many law enforcement officers are needed.
+
+                People are born in the city and people die in the city.
+
+
+                If you are doing a system for any French City, you would need security clearance.
